@@ -15,10 +15,12 @@
     #import <UIKit/UIKit.h>
     #define CCFont UIFont
     #define CCColor UIColor
+    #define CCImage UIImage
 #else
     #import <Cocoa/Cocoa.h>
     #define CCFont NSFont
     #define CCColor NSColor
+    #define CCImage NSImage
 #endif
 
 #import <Foundation/Foundation.h>

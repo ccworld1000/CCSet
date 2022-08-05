@@ -1,6 +1,6 @@
 //
 //  GameScene.m
-//  CCFoundation Shared
+//  CCSet Shared
 //
 //  Created by CC on 2022/8/4.
 //
@@ -25,8 +25,8 @@
     scene.scaleMode = SKSceneScaleModeAspectFill;
     scene.anchorPoint = CGPointMake(0.5, 0.5);
     
-    SKLabelNode *_label  = [SKLabelNode labelNodeWithText:@"CCFoundation"];
-    _label.name = @"CCFoundation";
+    SKLabelNode *_label  = [SKLabelNode labelNodeWithText:@"CCSet"];
+    _label.name = @"CCSet";
     
     //CCFont test
     _label.fontColor = CCColorWithHexString(@"FFFF00");
@@ -40,7 +40,7 @@
     {
         // CCDebug test
         [CCDebug debugLogSwitch: YES];
-        CCDebugPrint(@"Test CCFoundation");
+        CCDebugPrint(@"Test CCSet");
     }
     
     {

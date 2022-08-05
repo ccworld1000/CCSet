@@ -13,14 +13,16 @@
 
 #if TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR
     #import <UIKit/UIKit.h>
-    #define CCFont UIFont
+    #define CCFont  UIFont
     #define CCColor UIColor
     #define CCImage UIImage
+    #define CCView  UIView
 #else
     #import <Cocoa/Cocoa.h>
-    #define CCFont NSFont
+    #define CCFont  NSFont
     #define CCColor NSColor
     #define CCImage NSImage
+    #define CCView  NSView
 #endif
 
 #import <Foundation/Foundation.h>

@@ -8,6 +8,10 @@
 pod 'CCSet'
 ```
 
+```objective-c
+#import <CCSet/CCSet.h>
+```
+
 
 
 ##  CCDeug [https://github.com/ccworld1000/CCDebug]( https://github.com/ccworld1000/CCDebug)

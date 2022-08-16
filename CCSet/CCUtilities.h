@@ -17,12 +17,16 @@
     #define CCColor UIColor
     #define CCImage UIImage
     #define CCView  UIView
+
+    #define CCBezierPath  UIBezierPath
 #else
     #import <Cocoa/Cocoa.h>
     #define CCFont  NSFont
     #define CCColor NSColor
     #define CCImage NSImage
     #define CCView  NSView
+
+    #define CCBezierPath  NSBezierPath
 #endif
 
 #import <Foundation/Foundation.h>

@@ -13,6 +13,7 @@
 
 #if TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR
     #import <UIKit/UIKit.h>
+
     #define CCFont  UIFont
     #define CCColor UIColor
     #define CCImage UIImage
@@ -21,6 +22,9 @@
     #define CCBezierPath  UIBezierPath
 #else
     #import <Cocoa/Cocoa.h>
+    
+    #import <CCSet/NSBezierPath+CCSet.h>
+
     #define CCFont  NSFont
     #define CCColor NSColor
     #define CCImage NSImage

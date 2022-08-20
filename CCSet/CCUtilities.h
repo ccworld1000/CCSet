@@ -19,10 +19,12 @@
     #define CCImage UIImage
     #define CCView  UIView
 
-    #define CCBezierPath  UIBezierPath
+    #define CCBezierPath    UIBezierPath
+    #define CCScreen        UIScreen
 #else
     #import <Cocoa/Cocoa.h>
-    
+
+    #import <CCSet/NSScreen+Scale.h>
     #import <CCSet/NSBezierPath+CCSet.h>
 
     #define CCFont  NSFont
@@ -30,7 +32,8 @@
     #define CCImage NSImage
     #define CCView  NSView
 
-    #define CCBezierPath  NSBezierPath
+    #define CCBezierPath    NSBezierPath
+    #define CCScreen        NSScreen
 #endif
 
 #import <Foundation/Foundation.h>

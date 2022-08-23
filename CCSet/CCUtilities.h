@@ -34,6 +34,11 @@
 
     #define CCBezierPath    NSBezierPath
     #define CCScreen        NSScreen
+
+    //keep for iOS
+    #define NSStringFromCGRect  NSStringFromRect
+    #define NSStringFromCGSize  NSStringFromSize
+    #define NSStringFromCGPoint NSStringFromPoint
 #endif
 
 #import <Foundation/Foundation.h>
